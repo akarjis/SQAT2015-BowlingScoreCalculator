@@ -47,6 +47,6 @@ public class Frame {
 	
 	//bonus throws
 	public int bonus(){
-		return bonus;
+		return firstThrow;
 	}
 }
