@@ -22,9 +22,13 @@ public class BowlingGame {
 			
 			if (previousFrame.isStrike())
 				previousFrame.setBonus(frame.getFirstThrow() + frame.getSecondThrow());
+			
+			if (!previousFrame.isLastFrame())
+				frames.add(frame);
+			
+		} else {
+			frames.add(frame);
 		}
-		
-		frames.add(frame);
 		
 		if (frames.size() == 10)
 			frame.setLastFrame(true);
