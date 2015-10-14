@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int bonus;
 	private boolean lastFrame;
 	
 	public Frame(int firstThrow, int secondThrow){
@@ -20,7 +21,7 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		return firstThrow + secondThrow;
+		return firstThrow + secondThrow + bonus;
 	}
 
 	//returns whether the frame is a strike or not
@@ -48,9 +49,13 @@ public class Frame {
 		return lastFrame;
 	}
 	
+	public void setBonus(int bonus) {
+		this.bonus = bonus;
+	}
+	
 	//bonus throws
 	public int bonus(){
 		// not yet implemented
-		return 0;
+		return bonus;
 	}
 }

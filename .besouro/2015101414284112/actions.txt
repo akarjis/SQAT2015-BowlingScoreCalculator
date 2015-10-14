@@ -149,3 +149,7 @@ EditAction 1444826284188 BowlingGame.java 1300 7 17 0
 UnitTestCaseAction 1444826284523 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444826284523 TestBowlingScoreCalculator OK
 EditAction 1444826332672 BowlingGame.java 1309 7 17 0
+CompilationAction 1444826332990 BowlingGame.java
+RefactoringAction 1444826343359 Frame.java ADD int bonus FIELD
+RefactoringAction 1444826368906 Frame.java ADD void setBonus(int) METHOD
+EditAction 1444826374493 Frame.java 1209 10 15 0
