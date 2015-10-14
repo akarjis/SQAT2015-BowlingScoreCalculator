@@ -66,13 +66,6 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testFrameAddBonus() {
-		Frame frame = new Frame(0, 1);
-		frame.setBonus(1);
-		assertEquals(2, frame.score());
-	}
-	
-	@Test
 	public void testFrameLastFrame() {
 		Frame frame = new Frame(0,0);
 		frame.setLastFrame(true);

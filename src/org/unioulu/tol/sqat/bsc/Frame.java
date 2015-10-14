@@ -10,6 +10,10 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public int getFirstThrow() {
+		return firstThrow;
+	}
+	
 	//the score of a single frame
 	public int score(){
 		return firstThrow + secondThrow;
@@ -38,10 +42,6 @@ public class Frame {
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
 		return lastFrame;
-	}
-
-	public void setBonus(int bonus) {
-		this.bonus = bonus;
 	}
 	
 	//bonus throws

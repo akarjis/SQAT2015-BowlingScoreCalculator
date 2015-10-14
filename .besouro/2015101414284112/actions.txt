@@ -118,3 +118,14 @@ UnitTestSessionAction 1444825468471 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444825695829 Frame.java REMOVE bonus FIELD
 EditAction 1444825794321 BowlingGame.java 932 6 9 0
 EditAction 1444825794380 Frame.java 1053 8 13 0
+CompilationAction 1444825794470 Frame.java
+RefactoringAction 1444825805498 Frame.java REMOVE setBonus(int) METHOD
+CompilationAction 1444825806946 TestBowlingScoreCalculator.java
+RefactoringAction 1444825823006 TestBowlingScoreCalculator.java REMOVE testFrameAddBonus() METHOD
+UnitTestCaseAction 1444825830098 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444825830099 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444825988702 Frame.java ADD int get FIELD
+RefactoringAction 1444825994716 Frame.java RENAME get=>int getFirstThrow() METHOD
+RefactoringAction 1444826004241 Frame.java ADD int getSecondThrow() METHOD
+RefactoringAction 1444826007253 Frame.java REMOVE getSecondThrow() METHOD
+EditAction 1444826008056 Frame.java 1048 8 13 0
