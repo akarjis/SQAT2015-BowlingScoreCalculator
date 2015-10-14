@@ -47,7 +47,6 @@ public class BowlingGame {
 	
 	public boolean isNextFrameBonus(){
 		boolean ret = false;
-
 		
 		Frame previousFrame = getPreviousFrame();
 		if (previousFrame != null) {
