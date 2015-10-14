@@ -23,7 +23,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testAddFrame() {
+	public void testGameAddFrame() {
 		Frame frame = new Frame(0, 0);
 		game.addFrame(frame);
 		
