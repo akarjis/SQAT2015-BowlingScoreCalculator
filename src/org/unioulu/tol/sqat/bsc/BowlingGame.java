@@ -16,9 +16,9 @@ public class BowlingGame {
 		
 		Frame previousFrame = getPreviousFrame();
 		if (previousFrame != null) {
+			
 			if (previousFrame.isSpare())
 				setBonus(frame.getFirstThrow(), 0);
-			
 			
 		}
 			
