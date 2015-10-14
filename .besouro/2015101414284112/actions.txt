@@ -73,3 +73,4 @@ RefactoringAction 1444824166688 Frame.java ADD boolean set FIELD
 RefactoringAction 1444824170204 Frame.java RENAME set=>boolean setLastFrame() METHOD
 RefactoringAction 1444824180749 Frame.java RENAME setLastFrame()=>void setLastFrame(boolean) METHOD
 EditAction 1444824184818 Frame.java 1023 8 12 0
+EditAction 1444824186707 TestBowlingScoreCalculator.java 1281 8 18 7
