@@ -116,6 +116,14 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testGameNoBonusWhenLastFrameIsNotPlayed() {
+		game.addFrame( new Frame(1, 4) );
+		game.addFrame( new Frame(4, 5) ); 
+		game.setBonus(1, 1);
+		assertEquals( 14, game.score() );
+	}
+	
+	@Test
 	public void testFrameStrike() {
 		Frame frame = new Frame(10, 0);
 		assertTrue(frame.isStrike());

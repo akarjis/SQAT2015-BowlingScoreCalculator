@@ -194,3 +194,7 @@ EditAction 1444827665600 TestBowlingScoreCalculator.java 3720 13 67 12
 UnitTestCaseAction 1444827665926 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444827665927 TestBowlingScoreCalculator FAIL
 EditAction 1444827693635 BowlingGame.java 1736 7 17 0
+UnitTestCaseAction 1444827700126 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827700126 TestBowlingScoreCalculator OK
+RefactoringAction 1444827830227 TestBowlingScoreCalculator.java ADD void testGameNoBonusWhenLastFrameIsNotPlayed() METHOD
+EditAction 1444827917131 TestBowlingScoreCalculator.java 3929 14 71 13
