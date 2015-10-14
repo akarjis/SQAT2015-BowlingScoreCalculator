@@ -43,5 +43,11 @@ public class TestBowlingScoreCalculator {
 		Frame frame = new Frame(10, 0);
 		assertTrue(frame.isStrike());
 	}
+	
+	@Test
+	public void testFrameSpare() {
+		Frame frame = new Frame(5, 5);
+		assertTrue(frame.isSpare());
+	}
 
 }
