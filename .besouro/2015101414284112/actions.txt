@@ -132,3 +132,7 @@ EditAction 1444826008056 Frame.java 1048 8 13 0
 RefactoringAction 1444826029375 Frame.java ADD int getSecondThrow() METHOD
 EditAction 1444826034654 Frame.java 1110 9 14 0
 EditAction 1444826073426 BowlingGame.java 1070 6 11 0
+UnitTestCaseAction 1444826073724 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444826073724 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444826120231 BowlingGame.java ADD Frame getPreviousFrame() METHOD
+EditAction 1444826151422 BowlingGame.java 1173 7 13 0

@@ -15,7 +15,7 @@ public class BowlingGame {
 			frames = new ArrayList<>();
 	
 		
-		Frame previousFrame = frames.get(frames.size()-1);
+		
 		
 		if (previousFrame.isSpare())
 			setBonus(frame.getFirstThrow(), 0);
@@ -51,4 +51,13 @@ public class BowlingGame {
 		
 		return ret;
 	}
+	
+	public Frame getPreviousFrame() {
+		Frame ret = null;
+		if (frames.size() > 0) {
+			ret = frames.get(frames.size()-1);
+		}
+		return ret;
+	}
 }
+
