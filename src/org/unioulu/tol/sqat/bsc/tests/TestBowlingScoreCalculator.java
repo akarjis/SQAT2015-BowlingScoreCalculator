@@ -99,6 +99,23 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testGameLastFrame() {
+		game.addFrame( new Frame(1, 4) );
+		game.addFrame( new Frame(4, 5) ); 
+		game.addFrame( new Frame(6, 4) ); 
+		game.addFrame( new Frame(5, 5) ); 
+		game.addFrame( new Frame(10, 0) );
+		game.addFrame( new Frame(0, 1) );
+		game.addFrame( new Frame(7, 3) );
+		game.addFrame( new Frame(6, 4) );
+		game.addFrame( new Frame(10, 0) );
+		Frame lastFrame = new Frame(2, 0);
+		game.addFrame( lastFrame );
+		
+		assertTrue(lastFrame.isLastFrame());
+	}
+	
+	@Test
 	public void testFrameStrike() {
 		Frame frame = new Frame(10, 0);
 		assertTrue(frame.isStrike());

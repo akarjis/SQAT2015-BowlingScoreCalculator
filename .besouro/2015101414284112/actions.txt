@@ -187,3 +187,7 @@ EditAction 1444827416800 BowlingGame.java 1693 7 16 0
 UnitTestCaseAction 1444827417093 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444827417094 TestBowlingScoreCalculator FAIL
 EditAction 1444827434719 BowlingGame.java 1675 7 16 0
+UnitTestCaseAction 1444827435045 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827435045 TestBowlingScoreCalculator OK
+RefactoringAction 1444827572179 TestBowlingScoreCalculator.java ADD void testGameLastFrame() METHOD
+EditAction 1444827665600 TestBowlingScoreCalculator.java 3720 13 67 12
