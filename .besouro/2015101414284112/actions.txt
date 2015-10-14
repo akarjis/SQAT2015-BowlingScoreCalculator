@@ -86,3 +86,6 @@ UnitTestCaseAction 1444824255891 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444824255892 TestBowlingScoreCalculator OK
 RefactoringAction 1444824341475 TestBowlingScoreCalculator.java ADD void testGameNextFrameBonus() METHOD
 EditAction 1444824370087 TestBowlingScoreCalculator.java 1466 9 22 8
+UnitTestCaseAction 1444824372913 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444824372913 TestBowlingScoreCalculator FAIL
+EditAction 1444824479538 BowlingGame.java 896 6 10 0
