@@ -30,7 +30,8 @@ public class BowlingGame {
 	}
 	
 	public void setBonus(int firstThrow, int secondThrow) {
-		//to be implemented
+		bonus = new Frame(firstThrow, secondThrow);
+		frames.add(bonus);
 	}
 	
 	public int score(){
