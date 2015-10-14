@@ -118,9 +118,9 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testGameNoBonusWhenLastFrameIsNotPlayed() {
 		game.addFrame( new Frame(1, 4) );
-		game.addFrame( new Frame(4, 5) ); 
+		game.addFrame( new Frame(5, 5) ); 
 		game.setBonus(1, 1);
-		assertEquals( 14, game.score() );
+		assertEquals( 15, game.score() );
 	}
 	
 	@Test
