@@ -137,6 +137,8 @@ public class TestBowlingScoreCalculator {
 		game.addFrame( new Frame(2, 8) );
 		// bonus
 		game.setBonus(6, 5);
+		
+		// 11th frame should not show in score
 		game.addFrame( new Frame(4, 2));
 
 		assertEquals(133, game.score());
@@ -146,12 +148,21 @@ public class TestBowlingScoreCalculator {
 	public void testFrameStrike() {
 		Frame frame = new Frame(10, 0);
 		assertTrue(frame.isStrike());
+		
+		frame = new Frame(5, 5);
+		assertFalse(frame.isStrike());
+		
+		frame = new Frame(0, 10);
+		assertFalse(frame.isStrike());
 	}
 	
 	@Test
 	public void testFrameSpare() {
 		Frame frame = new Frame(5, 5);
 		assertTrue(frame.isSpare());
+		
+		frame = new Frame(10, 0);
+		assertFalse(frame.isSpare());
 	}
 	
 	@Test
