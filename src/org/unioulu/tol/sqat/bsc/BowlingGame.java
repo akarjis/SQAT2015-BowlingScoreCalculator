@@ -11,7 +11,10 @@ public class BowlingGame {
 	public BowlingGame(){}
 	
 	public void addFrame(Frame frame){
-		//to be implemented
+		if (frames == null)
+			frames = new ArrayList<>();
+		
+		frames.add(frame);
 	}
 	
 	public List<Frame> getFrames() {
