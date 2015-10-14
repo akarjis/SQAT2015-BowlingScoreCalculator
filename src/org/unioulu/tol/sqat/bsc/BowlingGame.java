@@ -33,8 +33,18 @@ public class BowlingGame {
 	
 	public void setBonus(int firstThrow, int secondThrow) {
 		if (isNextFrameBonus()) {
-			bonus = new Frame(firstThrow, secondThrow);
-			frames.add(bonus);
+			
+			Frame previousFrame = getPreviousFrame();
+			if (previousFrame != null) {
+			
+				if (previousFrame.isSpare())
+					bonus = new Frame(firstThrow, 0);
+				
+				if (previousFrame.isStrike())
+					bonus = new Frame(firstThrow, secondThrow);
+				
+				frames.add(bonus);
+			}
 		}
 	}
 	
