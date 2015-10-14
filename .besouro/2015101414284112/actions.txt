@@ -174,3 +174,7 @@ EditAction 1444827060320 TestBowlingScoreCalculator.java 2597 11 43 10
 UnitTestCaseAction 1444827065838 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444827065839 TestBowlingScoreCalculator OK
 EditAction 1444827119452 BowlingGame.java 1456 7 16 0
+UnitTestCaseAction 1444827131296 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827131296 TestBowlingScoreCalculator OK
+RefactoringAction 1444827197370 TestBowlingScoreCalculator.java ADD void testGameBonusRoundCannotRollFourBalls() METHOD
+EditAction 1444827244374 TestBowlingScoreCalculator.java 3218 12 55 11

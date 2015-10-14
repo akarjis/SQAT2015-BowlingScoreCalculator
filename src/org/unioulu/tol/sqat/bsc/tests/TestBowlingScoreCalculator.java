@@ -74,6 +74,23 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testGameBonusRoundCannotRollFourBalls() {
+		game.addFrame( new Frame(1, 4) ); // 5
+		game.addFrame( new Frame(4, 5) ); // 14
+		game.addFrame( new Frame(6, 4) ); // 29 (bonus 5)
+		game.addFrame( new Frame(5, 5) ); // 49 (bonus 10)
+		game.addFrame( new Frame(10, 0) ); // 60 (bonus 1)
+		game.addFrame( new Frame(0, 1) ); // 61
+		game.addFrame( new Frame(7, 3) ); // 77 (bonus 6)
+		game.addFrame( new Frame(6, 4) ); // 97 (bonus 10)
+		game.addFrame( new Frame(10, 0) ); // 117
+		game.addFrame( new Frame(2, 8) );
+		// bonus
+		game.setBonus(6, 5);
+		assertEquals(133, game.score());
+	}
+	
+	@Test
 	public void testGameScore() {
 		Frame frame = new Frame(0, 1);
 		game.addFrame(frame);
