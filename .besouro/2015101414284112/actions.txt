@@ -47,3 +47,10 @@ EditAction 1444823657923 TestBowlingScoreCalculator.java 979 6 12 4
 UnitTestCaseAction 1444823658282 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444823658283 TestBowlingScoreCalculator FAIL
 EditAction 1444823691277 Frame.java 888 6 11 0
+UnitTestCaseAction 1444823693856 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823693857 TestBowlingScoreCalculator OK
+RefactoringAction 1444823917651 Frame.java ADD void setBonus() METHOD
+RefactoringAction 1444823920670 Frame.java RENAME setBonus()=>void setBonus(int) METHOD
+RefactoringAction 1444823935221 Frame.java ADD int bonus FIELD
+RefactoringAction 1444823968679 TestBowlingScoreCalculator.java ADD void testFrameAddBonus() METHOD
+EditAction 1444824030746 Frame.java 956 7 11 0

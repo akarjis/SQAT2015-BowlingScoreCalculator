@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 public class Frame {
 	private int firstThrow;
 	private int secondThrow;
+	private int bonus;
 	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
@@ -36,6 +37,10 @@ public class Frame {
 		return false;
 	}
 
+	public void setBonus(int bonus) {
+		
+	}
+	
 	//bonus throws
 	public int bonus(){
 		//to be implemented
