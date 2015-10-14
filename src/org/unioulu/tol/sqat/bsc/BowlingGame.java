@@ -49,8 +49,6 @@ public class BowlingGame {
 				
 				if (previousFrame.isStrike())
 					bonus = new Frame(firstThrow, secondThrow);
-				
-				frames.add(bonus);
 			}
 		}
 	}
@@ -60,6 +58,9 @@ public class BowlingGame {
 		
 		for (Frame frame : frames)
 			ret += frame.score();
+		
+		if (bonus != null)
+			ret += bonus.score();
 		
 		return ret;
 	}
