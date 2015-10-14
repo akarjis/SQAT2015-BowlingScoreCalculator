@@ -36,3 +36,6 @@ RefactoringAction 1444823551986 TestBowlingScoreCalculator.java ADD void test FI
 RefactoringAction 1444823554005 TestBowlingScoreCalculator.java RENAME test=>void testFrame FIELD
 RefactoringAction 1444823557522 TestBowlingScoreCalculator.java RENAME testFrame=>void testFrameStrike() METHOD
 EditAction 1444823590514 TestBowlingScoreCalculator.java 865 5 10 3
+UnitTestCaseAction 1444823590821 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444823590821 TestBowlingScoreCalculator FAIL
+EditAction 1444823620685 Frame.java 834 6 9 0
