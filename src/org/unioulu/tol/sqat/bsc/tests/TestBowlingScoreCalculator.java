@@ -46,6 +46,17 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testGameScoreStrikeBonus() {
+		game.addFrame( new Frame(1, 4) ); // 5
+		game.addFrame( new Frame(4, 5) ); // 14
+		game.addFrame( new Frame(6, 4) ); // 29 (bonus 5)
+		game.addFrame( new Frame(5, 5) ); // 49 (bonus 10)
+		game.addFrame( new Frame(10, 0) ); // 60 (bonus 1)
+		game.addFrame( new Frame(0, 1) ); // 61 (bonus 10)
+		assertEquals(61, game.score());
+	}
+	
+	@Test
 	public void testGameScore() {
 		Frame frame = new Frame(0, 1);
 		game.addFrame(frame);

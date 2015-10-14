@@ -155,3 +155,7 @@ RefactoringAction 1444826368906 Frame.java ADD void setBonus(int) METHOD
 EditAction 1444826374493 Frame.java 1209 10 15 0
 CompilationAction 1444826374765 BowlingGame.java
 EditAction 1444826387005 BowlingGame.java 1306 7 17 0
+UnitTestCaseAction 1444826387329 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826387329 TestBowlingScoreCalculator OK
+RefactoringAction 1444826408416 TestBowlingScoreCalculator.java ADD void testGameScoreStrikeBonus() METHOD
+EditAction 1444826525349 TestBowlingScoreCalculator.java 1955 10 30 8
