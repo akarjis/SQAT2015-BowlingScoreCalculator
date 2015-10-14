@@ -54,3 +54,4 @@ RefactoringAction 1444823920670 Frame.java RENAME setBonus()=>void setBonus(int)
 RefactoringAction 1444823935221 Frame.java ADD int bonus FIELD
 RefactoringAction 1444823968679 TestBowlingScoreCalculator.java ADD void testFrameAddBonus() METHOD
 EditAction 1444824030746 Frame.java 956 7 11 0
+EditAction 1444824030817 TestBowlingScoreCalculator.java 1125 7 15 5
