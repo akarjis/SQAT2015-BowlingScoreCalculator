@@ -38,12 +38,11 @@ public class Frame {
 	}
 
 	public void setBonus(int bonus) {
-		
+		this.bonus = bonus;
 	}
 	
 	//bonus throws
 	public int bonus(){
-		//to be implemented
-		return 0;
+		return bonus;
 	}
 }
