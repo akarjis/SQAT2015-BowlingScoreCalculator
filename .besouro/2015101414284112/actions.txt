@@ -10,3 +10,6 @@ RefactoringAction 1444823081140 TestBowlingScoreCalculator.java ADD import org.j
 RefactoringAction 1444823089808 TestBowlingScoreCalculator.java ADD import org.junit.After IMPORT
 RefactoringAction 1444823108688 BowlingGame.java ADD void getFrames() METHOD
 EditAction 1444823124819 BowlingGame.java 644 6 3 0
+RefactoringAction 1444823135228 TestBowlingScoreCalculator.java ADD void testAddFrame() METHOD
+RefactoringAction 1444823184840 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+EditAction 1444823256167 TestBowlingScoreCalculator.java 579 3 4 1
