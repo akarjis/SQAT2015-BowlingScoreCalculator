@@ -31,6 +31,10 @@ public class Frame {
 		return ret;
 	}
 
+	public void setLastFrame(boolean lastFrame) {
+		
+	}
+	
 	//return whether this is the last frame of the match
 	public boolean isLastFrame(){
 		//to be implemented
