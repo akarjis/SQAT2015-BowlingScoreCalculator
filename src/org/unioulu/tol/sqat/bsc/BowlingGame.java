@@ -13,12 +13,14 @@ public class BowlingGame {
 	public void addFrame(Frame frame){
 		if (frames == null)
 			frames = new ArrayList<>();
-	
 		
-		
-		
-		if (previousFrame.isSpare())
-			setBonus(frame.getFirstThrow(), 0);
+		Frame previousFrame = getPreviousFrame();
+		if (previousFrame != null) {
+			if (previousFrame.isSpare())
+				setBonus(frame.getFirstThrow(), 0);
+			
+			
+		}
 			
 		frames.add(frame);
 	}
