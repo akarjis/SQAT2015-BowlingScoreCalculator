@@ -71,7 +71,7 @@ public class BowlingGame {
 	
 	public Frame getPreviousFrame() {
 		Frame ret = null;
-		if (frames != null || frames.size() > 0) {
+		if (frames.size() > 0) {
 			ret = frames.get(frames.size()-1);
 		}
 		return ret;
