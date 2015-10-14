@@ -65,7 +65,7 @@ public class BowlingGame {
 		
 		Frame previousFrame = getPreviousFrame();
 		if (previousFrame != null) {
-			if (previousFrame.isSpare() || previousFrame.isStrike())
+			if (previousFrame.isLastFrame() && previousFrame.isSpare() || previousFrame.isStrike())
 				ret = true;
 		}
 		
