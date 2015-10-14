@@ -55,7 +55,7 @@ public class TestBowlingScoreCalculator {
 		Frame frame = new Frame(0, 1);
 		frame.setBonus(1);
 		assertEquals(1, frame.bonus());
-		
+		assertEquals(2, frame.score());
 	}
 
 }
