@@ -14,6 +14,12 @@ public class BowlingGame {
 		if (frames == null)
 			frames = new ArrayList<>();
 		
+		if (isNextFrameBonus()) {
+			Frame previousFrame = frames.get(frames.size()-1);
+			previousFrame.setBonus(frame.bonus());	
+		}
+			
+		
 		frames.add(frame);
 	}
 	
