@@ -69,6 +69,8 @@ public class TestBowlingScoreCalculator {
 		game.addFrame( new Frame(10, 0) ); // 117
 		game.addFrame( new Frame(2, 8) );
 		assertTrue(game.isNextFrameBonus());
+		game.setBonus(6, 0);
+		assertEquals(133, game.score());
 	}
 	
 	@Test
