@@ -138,7 +138,7 @@ public class TestBowlingScoreCalculator {
 		// bonus
 		game.setBonus(6, 5);
 		game.addFrame( new Frame(4, 2));
-		
+
 		assertEquals(133, game.score());
 	}
 	

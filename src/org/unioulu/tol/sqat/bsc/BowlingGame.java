@@ -17,14 +17,16 @@ public class BowlingGame {
 		Frame previousFrame = getPreviousFrame();
 		if (previousFrame != null) {
 			
-			if (previousFrame.isSpare())
-				previousFrame.setBonus(frame.getFirstThrow());
+			if (!previousFrame.isLastFrame()) {
+				
+				if (previousFrame.isSpare())
+					previousFrame.setBonus(frame.getFirstThrow());
+				
+				if (previousFrame.isStrike())
+					previousFrame.setBonus(frame.getFirstThrow() + frame.getSecondThrow());
 			
-			if (previousFrame.isStrike())
-				previousFrame.setBonus(frame.getFirstThrow() + frame.getSecondThrow());
-			
-			if (!previousFrame.isLastFrame())
 				frames.add(frame);
+			}
 			
 		} else {
 			frames.add(frame);
