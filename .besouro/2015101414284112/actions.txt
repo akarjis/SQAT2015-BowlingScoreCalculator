@@ -153,3 +153,5 @@ CompilationAction 1444826332990 BowlingGame.java
 RefactoringAction 1444826343359 Frame.java ADD int bonus FIELD
 RefactoringAction 1444826368906 Frame.java ADD void setBonus(int) METHOD
 EditAction 1444826374493 Frame.java 1209 10 15 0
+CompilationAction 1444826374765 BowlingGame.java
+EditAction 1444826387005 BowlingGame.java 1306 7 17 0
