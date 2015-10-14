@@ -162,3 +162,8 @@ EditAction 1444826525349 TestBowlingScoreCalculator.java 1955 10 30 8
 UnitTestCaseAction 1444826529429 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444826529430 TestBowlingScoreCalculator FAIL
 EditAction 1444826565989 BowlingGame.java 1422 7 17 0
+UnitTestCaseAction 1444826569478 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444826569478 TestBowlingScoreCalculator OK
+RefactoringAction 1444826833851 TestBowlingScoreCalculator.java ADD void testGameScoreBonusRoundAtTenthFrame() METHOD
+RefactoringAction 1444826962820 TestBowlingScoreCalculator.java RENAME testGameScoreBonusRoundAtTenthFrame()=>void testGameBonusRoundAtTenthFrame() METHOD
+EditAction 1444826980898 TestBowlingScoreCalculator.java 2537 11 41 9
