@@ -12,7 +12,7 @@ public class Frame {
 	
 	//the score of a single frame
 	public int score(){
-		return firstThrow + secondThrow;
+		return firstThrow + secondThrow + bonus;
 	}
 
 	//returns whether the frame is a strike or not
