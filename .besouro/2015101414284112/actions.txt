@@ -82,3 +82,7 @@ UnitTestSessionAction 1444824202163 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444824218319 Frame.java ADD boolean last FIELD
 RefactoringAction 1444824219328 Frame.java RENAME last=>boolean lastFrame FIELD
 EditAction 1444824236672 Frame.java 1060 8 13 0
+UnitTestCaseAction 1444824255891 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824255892 TestBowlingScoreCalculator OK
+RefactoringAction 1444824341475 TestBowlingScoreCalculator.java ADD void testGameNextFrameBonus() METHOD
+EditAction 1444824370087 TestBowlingScoreCalculator.java 1466 9 22 8

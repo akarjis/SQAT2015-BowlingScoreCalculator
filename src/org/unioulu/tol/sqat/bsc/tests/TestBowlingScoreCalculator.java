@@ -31,6 +31,13 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
+	public void testGameNextFrameBonus() {
+		Frame frame = new Frame(10, 0);
+		game.addFrame(frame);
+		assertTrue(game.isNextFrameBonus());
+	}
+	
+	@Test
 	public void testGameScore() {
 		Frame frame = new Frame(0, 1);
 		game.addFrame(frame);
